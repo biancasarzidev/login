@@ -4,6 +4,9 @@
     
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
     }
 
     section#login{
@@ -26,10 +29,13 @@
 
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
     }
 
     section#login{
-        width: 800%;
+        width: 80%;
     }
 
     section#login > div#img{
