@@ -20,15 +20,18 @@
                     <div class="campo">
 
                         <label for="ilogin">Login</label>
-                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail">
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required>
 
                     </div>
                     <div class="campo">
 
                         <label for="isenha">Senha</label>
-                        <input type="password" name="senha" id="isenha" placeholder="Sua senha">                      
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required>                      
 
                     </div>
+
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html" target="_blank">Esqueci a senha</a>
 
                 </form>
             </div>
